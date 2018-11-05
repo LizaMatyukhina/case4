@@ -16,6 +16,11 @@ print('{} {}'.format(COUNT_SYLLABLES, count))
 
 # Alina
 # Средняя дина предложения в словах, длина слова в слогах, индекс удобочитаемости Флеша, pep8.
+asl = words/sentences
+asw = count/words
+
+print('{} {}'.format(ASL, asl))
+print('{} {}'.format(ASW, asw))
 
 # Aigerim
 # Анализ индекса Флеша и вывод, гu_local.
