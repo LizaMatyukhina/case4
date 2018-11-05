@@ -3,7 +3,7 @@ from ru_local_4 import *
 # Liza
 # Создание проекта на github, анализа текста на кол-во предложений, слов и слогов.
 vowel = 'аоиеёэыуюя'
-text = input(ENTER_THE_TEXT,)
+text = input(ENTER_THE_TEXT, )
 count = 0
 
 sentences = text.count('.')
@@ -18,9 +18,9 @@ print('{} {}'.format(COUNT_SYLLABLES, count))
 
 # Alina
 # Средняя дина предложения в словах, длина слова в слогах, индекс удобочитаемости Флеша, pep8.
-asl = words/sentences
-asw = count/words
-fre = 206.835-(1.3*asl)-(60.1*asw)
+asl = words / sentences
+asw = count / words
+fre = 206.835 - (1.3 * asl) - (60.1 * asw)
 
 print('{} {}'.format(ASL, asl))
 print('{} {}'.format(ASW, asw))
